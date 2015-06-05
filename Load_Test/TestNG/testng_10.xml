@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGLoad Test">
+  <test verbose="2" name="Load test">
+    <classes>
+      <class name="com.otc.loadtestng.LoadTestNG">
+	<methods>
+	 <include name="doLoadTest10" />
+	 <include name="setup" />
+	 <include name="tearDown" />
+	 <exclude name="doLoadTest50" />
+	 <exclude name="doLoadTest100" />
+	</methods>
+      </class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

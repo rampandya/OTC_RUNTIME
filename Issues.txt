@@ -1,0 +1,23 @@
+Testing Observations:
+
+After running several test in each browser, I have noticed that the test case works the best in Google 
+Chrome and Firefox.  
+
+I have code to handle SurveyMonkey pop up.  At one point, it was coming up but I don't see this pop 
+up anymore.  I have left the code if in the event it pops up.
+
+To run test case in MS IE configure MS IE as follow:
+
+1.  Include the path of the IE driver in the windows PATH variable.
+2.  Under the view menu of IE the zoom must be set to 100%.
+3.  For all zones in Tools->Security, Enable Protected Mode. 
+
+Known issues with IE:
+
+I have also noticed that sometime in IE browser in the middle of the test case,
+it gets stuck.  At this point, you just need to terminate it manually. 
+
+Occasionally, a message "InternetExplorer is not working" comes up after the successful completion of the test.  
+At this point, you justneed to click on the close button.  It seems that there are some issues IE driver.  
+
+Sometimes, The very first query test fails under IE browser for fuctional test.  All other query works fine. 

@@ -1,0 +1,22 @@
+Tools used to developed code for these test cases:
+
+Development Tool:
+
+The following tools are used to develope the source code:
+
+1. Eclipse IDE for Java code developement.
+2. JDK 1.7.X to compile java code. 
+3. Selenium Webdriver jar files (open source downloaded from  http://docs.seleniumhq.org/download/)
+4. JUnit 4.12 and hamcrest-core.jar files (Open source https://github.com/junit-team/junit/wiki/Download-and-Install)
+5. TestNG plug-In for Eclipse IDE  (Open source http://testng.org/doc/download.html)
+6. Firefox browser and Selenium IDE for Firefox.
+7. Firebug (Allows to inspect CSS, HTML, Javascript etc. 
+8. Firepath, a Firebug extension to insepect Xpath. 
+
+
+Runtime Tools:
+
+1.  Must have installed one of the following browsers: FireFox, Google Chrome or MS IE.
+2.  Runnable jar file to execute test case.  The runable jar files have been provided with this package. 
+3.  Driver for Google Chrome and MS IE.  These drivers are also included with this package. For Firefox, no
+    need for speial driver.  
